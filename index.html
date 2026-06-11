@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nossa História ❤️</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:'Inter', sans-serif;
+    text-align:center;
+    background:#faf8f5;
+    color:#333;
+}
+
+.capa{
+    height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("capa.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+
+    padding:20px;
+}
+
+h1{
+    font-family:'Cormorant Garamond', serif;
+    font-size:5rem;
+    font-weight:500;
+    margin-bottom:10px;
+}
+
+.capa p{
+    max-width:700px;
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+button{
+    background:#b89568;
+    color:white;
+    border:none;
+    padding:16px 34px;
+    border-radius:40px;
+    font-size:1rem;
+    cursor:pointer;
+    margin-top:25px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+.capitulo{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:70px;
+
+    padding:140px 10%;
+
+    background:white;
+}
+
+.capitulo:nth-child(even){
+    background:#faf8f5;
+}
+
+.capitulo img{
+
+    width:450px;
+    max-width:100%;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,0.12);
+}
+
+.texto{
+    max-width:550px;
+    text-align:left;
+}
+
+.numero{
+
+    color:#b89568;
+
+    letter-spacing:4px;
+
+    font-size:0.8rem;
+
+    font-weight:500;
+}
+
+.capitulo h2{
+
+    font-family:'Cormorant Garamond', serif;
+
+    color:#222;
+
+    font-size:3.5rem;
+
+    font-weight:500;
+
+    margin-top:10px;
+
+    margin-bottom:25px;
+}
+
+.capitulo p{
+
+    color:#555;
+
+    line-height:1.9;
+
+    font-size:1.05rem;
+}
+
+@media (max-width:768px){
+
+    h1{
+        font-size:3.2rem;
+    }
+
+    .capitulo{
+        flex-direction:column;
+        padding:90px 25px;
+        gap:35px;
+    }
+
+    .texto{
+        text-align:center;
+    }
+
+    .capitulo h2{
+        font-size:2.5rem;
+    }
+
+    .capitulo img{
+        width:100%;
+    }
+
+}
+.revelar{
+
+    opacity:0;
+
+    transform:translateY(50px);
+
+    transition:all 1s ease;
+
+}
+
+.revelar.ativo{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+.galeria{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+    width:100%;
+
+    max-width:800px;
+
+}
+
+.galeria img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.12);
+
+}
+</style>
+
+</head>
+<body>
+
+<div class="capa">
+
+<h1>Feliz Dia dos Namorados</h1>
+
+<p>
+Preparei este presente digital com muito carinho pra você. Aqui você verá alguns dos capítulos mais importantes da nossa vida juntos. 
+Espero que goste, my Sunshine!
+</p>
+
+<button onclick="window.scrollTo({
+top: window.innerHeight,
+behavior: 'smooth'
+})">
+Começar
+</button>
+
+</div>
+
+<section class="capitulo revelar">
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 1</span>
+
+        <h2>Tudo começou com uma conversa</h2>
+
+        <p>
+            Algumas histórias começam por acaso.
+        </p>
+
+        <p>
+            A nossa começou por insistência de uma amiga que tinha certeza de que deveríamos nos conhecer.
+        </p>
+
+        <p>
+            Em 7 de outubro de 2019, começamos a conversar.
+            E já no dia 26 nos vimos pela primeira vez. Não esqueço do seu olhar sobre o meu e o calor que seu sorriso me transmitia.
+            Tudo em mim se transformou.
+            Naquele dia eu já soube que viveríamos uma linda história de amor.
+        </p>
+
+        <p>
+           E ali, começávamos também a construir a vida que vivemos hoje.
+        </p>
+
+    </div>
+
+    <img src="foto0.jpeg" alt="Segundo encontro">
+
+</section>
+<section class="capitulo revelar">
+
+    <img src="foto1.jpeg" alt="Pedido de namoro">
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 2</span>
+
+        <h2>O pedido mais improvável possível</h2>
+
+        <p>
+            Alguns pedidos de namoro acontecem em restaurantes, shoppings, parques...
+        </p>
+
+        <p>
+            O nosso aconteceu online, e ao mesmo tempo em uma rua.
+        </p>
+
+        <p>
+            Uma rua chamada "Namora Comigo".
+        </p>
+
+        <p>
+            E, felizmente, a resposta foi sim. Foi o verde mais bonito que já joguei kkk
+        </p>
+
+    </div>
+
+</section>
+</html>
+<section class="capitulo revelar">
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 3</span>
+
+        <h2>Oficializando</h2>
+
+        <p>
+            Foi o aniversário mais marcante da minha vida.
+        </p>
+
+        <p>
+            Aquela surpresa, você com as alianças na mão e aquele pôr do Sol belíssimo fez tudo virar um momento mágico
+        </p>
+
+        <p>
+            Neste dia oficializamos de vez o nosso amor.
+        
+
+    </div>
+
+<div class="galeria">
+
+    <img src="foto2.jpeg" alt="Alianças">
+    <img src="foto3.jpeg" alt="Alianças">
+    <img src="foto4.jpeg" alt="Alianças">
+
+</div>
+
+</section>
+<section class="capitulo revelar">
+
+    <img src="foto5.jpeg" alt="Pedido de noivado">
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 4</span>
+
+        <h2>Um passo além</h2>
+
+        <p>
+            Um ano depois do pedido inusitado pelo Google Maps veio o noivado.
+        </p>
+
+        <p>
+            E aconteceu em um lugar que já fazia parte da nossa história.
+        </p>
+
+        <p>
+            O Cine Drive-in.
+        </p>
+
+        <p>
+            Um dos nossos lugares favoritos.
+            Cenário de muitos encontros, conversas e memórias. Muuuitas memórias!
+        </p>
+
+            Foi a continuação natural de uma história que já não conseguíamos imaginar vivendo separados.
+        </p>
+
+    </div>
+
+</section>
+<section class="capitulo revelar">
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 5</span>
+
+        <h2>O dia em que nos tornamos família</h2>
+
+        <p>
+            Em 8 de dezembro de 2021 dissemos "sim" um para o outro.
+        </p>
+
+            E para uma vida inteira de momentos gostosos, conquistas, altos e baixos e muita parceria.
+        </p>
+
+        <p>
+            O tipo de parceria que continua existindo até hoje e, no que depender de mim, sempre existirá.
+        </p>
+
+    </div>
+
+ <div class="galeria">
+
+    <img src="foto7.jpeg" alt="Casamento">
+    <img src="foto8.jpeg" alt="Casamento">
+    <img src="foto9.jpeg" alt="Casamento">
+
+</div>
+
+</section>
+<section class="capitulo revelar">
+
+    <div class="galeria">
+
+    <img src="foto10.jpeg" alt="Nossa cachorrinha">
+    <img src="fotomaju.jpeg" alt="Maju">
+
+</div>
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 6</span>
+
+        <h2>A família aumentou</h2>
+
+        <p>
+            Em Setembro do ano seguinte nossa equipe ganhou mais uma integrante.
+        </p>
+
+        <p>
+            Fofinha.
+            Bagunceira.
+            Doida.
+            E parceira, assim como nós.
+        </p>
+
+        <p>
+            Nossa casa ficou ainda mais completa.
+        </p>
+
+    </div>
+
+</section>
+<section class="capitulo revelar">
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 7</span>
+
+        <h2>Os dias comuns que se tornaram especiais</h2>
+
+        <p>
+            Acho que nenhuma dessas fotos representa um grande acontecimento.
+        </p>
+
+        <p>
+            E talvez seja exatamente por isso que eu goste tanto delas.
+        </p>
+
+        <p>
+            Porque a felicidade quase sempre apareceu nos dias mais comuns. E isso só acontece porque é você quem traz ela pro nosso lar.
+        </p>
+
+    </div>
+<div class="galeria">
+
+    <img src="foto11.jpeg" alt="">
+    <img src="foto12.jpeg" alt="">
+    <img src="foto13.jpeg" alt="">
+    <img src="maisrole.jpeg" alt="">
+    <img src="foto15.jpeg" alt="">
+    <img src="foto16.jpeg" alt="">
+    <img src="foto17.jpeg" alt="">
+    <img src="foto18.jpeg" alt="">
+    <img src="foto19.jpeg" alt="">
+
+
+</div>
+</section>
+<section class="capitulo revelar">
+
+  <div class="galeria">
+
+    <img src="foto20.jpeg" alt="Maceió">
+    <img src="foto21.jpeg" alt="Maceió">
+    <img src="foto22.jpeg" alt="Maceió">
+    <img src="foto23.jpeg" alt="Maceió">
+    <img src="foto24.jpeg" alt="Maceió">
+    <img src="maceio.jpeg" alt="Maceió">
+
+</div>
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 8</span>
+
+        <h2>Maceió</h2>
+
+        <p>
+            Algumas viagens nos levam para lugares novos.
+        </p>
+
+        <p>
+            Essa nos aproximou ainda mais dos nossos sonhos.
+        </p>
+
+        <p>
+            Foram dias de descanso e também de muitos planos para o futuro.
+        </p>
+
+    </div>
+
+</section>
+<section class="capitulo revelar">
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 9</span>
+
+        <h2>Um sonho ganhando endereço</h2>
+
+        <p>
+    Meses antes já havíamos comprado o lote.
+</p>
+
+<p>
+    Existiam documentos, fotos e mapas.
+</p>
+
+<p>
+    Mas nada se comparou ao momento em que finalmente estivemos ali.
+</p>
+
+<p>
+    Pela primeira vez, vimos com os próprios olhos o lugar onde imaginamos viver nossa aposentadoria.
+</p>
+
+<p>
+    Conhecemos a cidade.
+    Admiramos aquele farol.
+    Sentimos aquela brisa boa.
+    Nos banhamos pela primeira vez no mar de Coruripe.
+</p>
+
+<p>
+    E então caiu a ficha de que aquele sonho era real.
+</p>
+
+<p>
+    Não era apenas um terreno.
+</p>
+
+<p>
+    Era realmente um sonho ganhando endereço.
+</p>
+
+    </div>
+
+  <div class="galeria">
+
+    <img src="foto25.jpeg" alt="Pontal de Coruripe">
+    <img src="foto26.jpeg" alt="Nosso lote">
+    <img src="foto27.jpeg" alt="Vista aérea do lote">
+
+</div>
+
+</section>
+<section class="capitulo revelar">
+
+<div class="galeria">
+
+    <img src="foto28.jpeg" alt="Carro novo">
+    <img src="foto29.jpeg" alt="Concurso">
+
+</div>
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 10</span>
+
+        <h2>Tudo aquilo pelo que lutamos</h2>
+
+        <p>
+            Depois do casamento vieram novos sonhos.
+        </p>
+
+        <p>
+            E junto com eles vieram também as responsabilidades, as incertezas e os desafios que fazem parte da construção de uma vida.
+        </p>
+
+        <p>
+            Nem sempre foi fácil.
+        </p>
+
+        <p>
+            Mas também houve persistência.
+            Horas de estudo.
+            Incentivo.
+            Companheirismo.
+        </p>
+
+        <p>
+            E a certeza de que nenhum sonho parecia impossível quando caminhávamos lado a lado.
+        </p>
+
+    </div>
+
+</section>
+<section class="capitulo revelar">
+
+    <div class="texto">
+
+        <span class="numero">CAPÍTULO 11</span>
+
+        <h2>O próximo capítulo</h2>
+
+        <p>
+            Se alguém nos mostrasse estas fotos anos atrás, talvez não acreditássemos.
+        </p>
+
+        <p>
+            Mas aqui estamos.
+        </p>
+
+        <p>
+            Depois de tantos capítulos, conquistas, desafios e sonhos realizados.
+        </p>
+
+        <p>
+            E o mais bonito é saber que isto não é uma retrospectiva.
+        </p>
+
+        <p>
+            É apenas uma pausa para admirar o caminho antes de continuar.
+        </p>
+
+    </div>
+
+    <img src="foto30.jpeg" alt="Foto atual">
+    <section class="carta-final">
+
+    <div class="carta-conteudo">
+
+        <h2>Para o amor da minha vida</h2>
+
+        <p>
+            Quando comecei esta retrospectiva, imaginei que seria uma forma de relembrar tudo o que vivemos, homenagear nossa história e o marido que você é.
+        </p>
+
+        <p>
+            Mas, enquanto escolhia cada foto (e enquanto corrigia cada bug no código kkk), percebi que ela fala muito mais sobre o que ainda vamos viver.
+        </p>
+
+        <p>
+            Porque a melhor parte da nossa história nunca ficou para trás.
+        </p>
+
+        <p>
+            Finalmente percebi que ela sempre esteve à nossa frente.
+        </p>
+
+        <p>
+            Você é o melhor marido, parceiro, amigo e companheiro que eu poderia ter. Nem nos meus maiores sonhos imaginei que teria o privilégio de dividir a vida com alguém tão extraordinário.
+        </p>
+
+        <p>
+            Obrigada por ser meu parceiro em cada sonho, em cada plano e em cada desafio.
+        </p>
+
+        <p>
+            E obrigada por continuar escolhendo caminhar ao meu lado todos os dias.
+        </p>
+
+        <p>
+            Te amo mais que tudo nesse mundo!
+        </p>
+
+        <p class="assinatura">
+            Com amor,<br>
+            Seu cheirinho de café ❤️
+        </p>
+
+        <a
+            href="https://open.spotify.com/intl-pt/track/0GBsYdxpAPsOd6H8QzGCCU?si=034a22b124de492d"
+            target="_blank"
+            class="botao-musica"
+        >
+            🎵 Ainda Bem
+        </a>
+
+    </div>
+
+</section>
+<script>
+
+const observador = new IntersectionObserver((entradas)=>{
+
+    entradas.forEach((entrada)=>{
+
+        if(entrada.isIntersecting){
+
+            entrada.target.classList.add('ativo');
+
+        }
+
+    });
+
+});
+
+document.querySelectorAll('.revelar').forEach((item)=>{
+
+    observador.observe(item);
+
+});
+
+</script>
+</body>
+</html>
